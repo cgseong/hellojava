@@ -1,16 +1,16 @@
-package Lesson01;
-
 /*
- * 자바프로그래밍
+ * 자바 예제 프로그램(1) * 
  */
-public class Exam01 {	
-	public static void main(String[] args) {	//main 메소드
-		int x,y,z;
-		
-		x=1;
-		y=2;
+package Lesson01;		
+
+public class Exam01 {
+
+	public static void main(String[] args) {		
+		int x,y,z;			
+		x=10;
+		y=20;
 		z=x+y;
 		System.out.println(x+" + "+y+" = "+z);
-		
 	}
+
 }
