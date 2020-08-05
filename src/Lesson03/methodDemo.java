@@ -1,6 +1,6 @@
 package Lesson03;
 
-public class Exam01 {
+public class methodDemo {
 
 	public static void main(String[] args) {
 		seoul();  //seoul 메소드 호출
@@ -23,5 +23,4 @@ public class Exam01 {
     	int varInt2 = -2147483647; 
     	System.out.println(varInt2);
  	}	 
-
 }
