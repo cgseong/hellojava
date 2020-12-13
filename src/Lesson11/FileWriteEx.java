@@ -1,16 +1,14 @@
 package Lesson11;
 
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class FileWriteEx {
 
 	public static void main(String[] args) throws IOException {
-		FileWriter fw = new FileWriter("D:/Temp/out1.txt");
-        for(int i=1; i<11; i++) {
-            String data = i+" ¹øÂ° ÁÙÀÔ´Ï´Ù.\r\n";
-            fw.write(data);
-        }
-        fw.close();
+		File file = new File("C:\\Temp\\test1.txt"); 
+		FileWriter wf = new FileWriter(file); 
+		String str="ìžë°” íŒŒì¼ ì“°ê¸°\n";
+		wf.write(str); 
+		wf.close();
 	}
 }
